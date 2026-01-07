@@ -1,6 +1,16 @@
 export class Player {
-    constructor() {
-      
+  name;
+
+    constructor(nombre) {
+      this.name = nombre;  
+    }
+
+    set name(nombre){
+      this.name = nombre;
+    }
+
+    get getNombre(){
+      return this.name;
     }
   
     
