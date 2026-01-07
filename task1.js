@@ -1,17 +1,16 @@
 export class Player {
-  name;
+  _name;
 
-    constructor(nombre) {
-      this.name = nombre;  
+    constructor(nuevoNombre) {
+      this.name = nuevoNombre;  
     }
 
     set name(nombre){
-      this.name = nombre;
+      this._name = nombre;
     }
 
-    get getNombre(){
-      return this.name;
+    get getName(){
+      return this._name;
     }
   
-    
   }
